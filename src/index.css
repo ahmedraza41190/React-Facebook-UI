@@ -502,18 +502,17 @@ img{
   display:inline-block;
 }
 
-/* .right-container {
+ .right-container {
   flex: 2.3;
   background-color: #18191A;
-
+ margin-left: 58rem;
+ position: fixed;
 }
 
 .sponsor h3{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: #B0B3B8;
-  position: fixed;
-  right: 1rem;
 }
 .s-1 {
   display: flex;
@@ -563,5 +562,117 @@ img{
   font-weight: 500;
   color: #95989c;
   margin-top: 5px;
-} */
+} 
 
+@media only screen and (max-width: 600px) {
+  .f-logo{
+    display: none;
+  }
+
+  .main-search{
+    display: none;
+  }
+  
+  .home-button {
+    border-bottom: #2374e1 solid 3px;
+    margin-left: 130px;
+    width: 100px;
+    margin-bottom: 0;
+  
+  }
+  .home-logo svg {
+    margin-left: 45px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    fill: #2374e1;  
+  }
+  
+  .video-page {
+    margin-left: 14px;
+  }
+  .video-logo {
+    height: 56px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .video-logo svg {
+    margin-top: 4px;
+    fill: #B0B3B8;  
+  }
+  .video-logo:hover {
+    background-color: #39393a;
+    border-radius: 10px;
+  }
+  
+  .group-page {
+    margin-left: 9px;
+  }
+  .group-logo {
+    height: 56px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .group-logo svg {
+    margin-top: 4px;
+    fill: #B0B3B8;  
+  }
+  .group-logo:hover {
+    background-color: #39393a;
+    border-radius: 10px;
+  }
+  
+  .gaming-page {
+    margin-left: 10px;
+  }
+  .gaming-logo {
+    height: 56px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .gaming-logo svg {
+    margin-top: 4px;
+    fill: #B0B3B8;  
+  }
+  .gaming-logo:hover {
+    background-color: #39393a;
+    border-radius: 10px;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .menu-page{
+    display: none;
+  }
+
+  .messanger-page{
+    display: none;
+  }
+
+  .notification-page{
+    display: none;
+  }
+
+  .more-page{
+    display: none;
+  }
+
+  .right-container{
+    display: none;
+  }
+
+  .left-container{
+    display: none;
+  }
+}
