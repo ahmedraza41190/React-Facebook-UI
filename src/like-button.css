@@ -1,0 +1,18 @@
+.btn {
+    width: 9rem;
+    height: 2.5rem;
+    padding: 0 12px 0 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #B0B3B8;
+    background-color: #252627;
+  }
+   
+  .like-active {
+   color:rgb(32, 120, 244);
+  }
+
+  
